@@ -1,0 +1,83 @@
+.cardRegister{
+    margin-left: 327px;
+    padding: 0px;
+    width: -webkit-fill-available;
+    margin-right: 273px;
+    padding-top: 47px;
+}
+
+.Register{
+    height: calc(100vh - 120px);
+}
+.correo2{
+    margin-top: -76px;
+}
+.contraseña{
+    margin-top: -76px;
+}
+.logoBajo{
+  max-width: 100% ;
+  width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .logoBajo{
+        
+    }
+
+}
+
+
+@media (max-width: 390px) {
+
+    .tarjetaDeInputs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 250px;
+    }
+
+    .correo2{
+        top: 16px!important;
+    }
+    .contraseña{
+        top: 16px!important;
+    }
+
+    .joinNow{
+        text-align: center;
+        width: 300px;
+    }
+
+    .footer12{
+        position: relative;
+        top: 500px;
+    }
+
+    .botonsingup{
+        width: 300px;
+    }
+
+    .orContinue{
+        width: 300px;
+    }
+
+    .orContinue p{
+        font-size: 13px!important;
+    }
+
+    .logoRedes{
+        width: 300px;
+    }
+
+ 
+    
+    .finalRegister{
+        width: 300px;
+    }
+
+}

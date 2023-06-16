@@ -1,0 +1,20 @@
+.logoPrincipal{
+    margin-top: 20px;
+}
+
+.logoRegister{
+    height: 60px;
+    width: 250px!important;
+    margin-top: 20px;
+}
+
+.cardRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoRedes{
+   margin-top: 40px;
+}

@@ -1,0 +1,51 @@
+.Login{
+    height: calc(100vh - 130px);
+}
+
+
+@media (min-width:768px){
+
+    .imgLogin{
+        width: 36vw;
+        height:4vh;
+        margin-top: 2vh;
+    }
+
+    .navegador{
+        height: 100px;
+    }
+
+
+
+
+}
+
+@media (max-width:390px){
+    
+    .navegador{
+
+    }
+
+    .Login{
+        margin-top: 40px!important;
+    }
+
+    .imgLogin{
+        width: 50vw!important;
+        height: 4vh !important;;
+        margin-top: 4vh;
+
+    }
+    .logos{
+        display: flex !important;
+    }
+
+    .logos img{
+        height: 30px;
+    }
+
+   .footer1{
+    margin-top: 0px;
+   }
+
+}

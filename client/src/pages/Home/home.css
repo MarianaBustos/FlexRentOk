@@ -1,0 +1,228 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Home{
+  /* height: calc(100vh - 130px); */
+  min-height: calc(100vh - 130px);;
+}
+
+.btnSortPrice{
+  margin-right: 13vw;
+  padding: 2vw 0;
+  
+}
+
+.pic1 {
+  width: 20%;
+  height: 100px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.crd1 {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.cardBody {
+  flex-grow: 1;
+}
+
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px -5px;
+}
+
+.propertyCard {
+  flex-basis: calc(25% - 5px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.cardImg {
+  height: 32vh;
+  width: 22vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16%;
+}
+
+
+.rat {
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.cardTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.starting {
+  margin-left: 15px;
+  color: RGB(110, 196, 206);
+}
+
+.botonPrice{
+  background-color: #057794;
+  border-color: #057794;
+  border-radius: 10px;
+  padding: 0.5vw 1vw;
+  color: white;
+
+}
+
+.pequeño{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+padding: 0.5vw 2vw;
+ 
+}
+.buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #057794;
+  border-radius: 25px;
+  padding-right: 0 !important;
+  width: 46%;
+  margin-left: 27vw;
+  margin-top: 2vh!important;
+  
+}
+.BuscadorWhere{
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+}
+
+.pequeño input{
+  text-align: center;
+  border: none;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;   margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+.mini{
+  border-right: 1px solid gray;
+  
+}
+.searchButton{
+  padding: 1vw 1vw 1vw 0;
+  
+}
+
+
+.btn2 img {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.btn1 img {
+  margin-top: 50px;
+  height: 60px;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+  
+
+
+  .cardImg {
+    height: 20vh;
+    width: 24vw;
+  } 
+ 
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    width: 50vw;
+  }
+
+  .propertyCard {
+    flex-basis: calc(100% - 3px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+
+  }
+
+ .buscador{
+  margin-left: 0px;
+ }
+
+  .BuscadorWhere{
+  width:100%;
+  margin-left: 0;
+} 
+}
+
+/* Estilos para móviles */
+@media (max-width: 390px) {
+  .inputBusc {
+    width: 100%;
+  }
+  .cardImg {
+    height: 30vh;
+    width: 70vw;
+  } 
+
+  .inputBusc .barraBusqueda {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .inputBusc .inputWrapper {
+    width: 15vw;
+  }
+
+  .inputBusc .inputWrapper input {
+    font-size: 14px;
+    width: 20vw;
+  }
+
+  .inputBusc .btn {
+    width: auto;
+  }
+}

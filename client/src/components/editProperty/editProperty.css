@@ -1,0 +1,84 @@
+/* 1. editProperty  --  editProperty 1 - Property */
+
+
+.logoEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+.formEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formEdit input{
+    width: 500px;
+}
+
+
+
+
+/* -------------------------------------------- */
+
+/* 2. editProperty  --  editProperty 2 - propertyInfo */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+
+/* 3. editProperty  --  editProperty 3 - createPhoto */
+
+
+
+.botonOk{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+/* -------------------RESPONSIVE------------------------- */
+
+
+
+
+
+@media (min-width:768px){
+
+}
+
+
+
+
+
+
+@media (max-width:390px){
+    
+
+    /* 1. editProperty  --  editProperty 1 - Property */
+
+    .formEdit{
+        width: 300px!important;
+        text-align: center;
+    }
+
+    .formEdit input{
+        width: 300px;
+    }
+}

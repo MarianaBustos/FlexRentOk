@@ -1,0 +1,265 @@
+body{
+    background-color:#F2F4F4 ;
+}
+.FondoFlexRent{
+    background-image: url(../../../../public/assets/images/LandingPage/Background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+ 
+
+}
+.mobile-button{
+    display: none!important;
+}
+
+
+.CuadroBlanco3Iconos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px; 
+}
+
+.titulo1{
+    color: RGB(5,119,148);
+}
+
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    border: none !important;
+}
+
+.textogris{
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.JoinOurEarly{
+   height: 20%;
+    background-color: white;
+    margin-top: 60px;
+    
+}
+.footer{
+    background-color: #3EB0BE ;
+    color: white;
+}
+
+
+.community{
+    width: 45%;
+}
+
+.correo{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+.botonCorreo{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px!important;
+    border: 1px solid RGB(5,119,148)!important;
+    background-color: RGB(5,119,148)!important;
+}
+
+.join{
+    width: 40%;
+    text-align: center;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inputFinal{
+    gap: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputFinal input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    height: 40px;
+    text-align: left;
+}
+
+.botonFinal{
+    height: 40px;
+    background-color: RGB(5,119,148)!important;
+    border: 1px solid RGB(5,119,148)!important;
+    border-radius: 10px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    
+}
+
+
+
+
+@media (min-width:768px){
+    .community{
+        width: 60%;
+    }
+
+    .correo{
+        width: 60%!important;
+    }
+
+    .join{
+        width: 100%;
+    }
+
+    .fondogris{
+        background-color: #F2F4F4;
+        border-radius: 10px;
+        margin-right: 70px!important;
+    }
+
+    .tarjetaTablet{
+        margin: 30px;
+    }
+
+    .tarjetaTablet .tarjeta{
+        margin-top: 100px;
+    }
+
+    .tarjeta{
+        border: 1px solid gray;
+        box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.438);
+    }
+
+    .botonFinal{
+        width: 140px;
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width:390px){
+   
+   
+    .community{
+        width: 100%;
+        text-align: left;
+    }
+
+    .community h1{
+        font-size: 34px !important;
+    }
+
+    .community p{
+        font-size: 16px !important;
+    }
+
+    .correo{
+        width: 100%!important;
+    }
+    .botonCorreo{
+        width: 100%;
+    }
+
+    .divCorreo{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .CuadroBlanco3Iconos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px!important;
+        height: 214px;
+    }
+
+    .CuadroBlanco3Iconos p{
+        font-size: 10px;
+        
+    }
+
+    .vistaMovil{
+        margin-top: 900px !important;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px !important;
+    }
+
+    .fondo{
+        padding-top: 50px!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    .fondo p{
+        font-size: 20px!important;
+        font-weight: 600;
+    }
+
+    .join{
+        font-size:27px !important;
+        font-weight: 700;
+    }
+
+    .inputFinal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column!important;
+    }
+
+    .botonFinal{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mobile-button{
+        display: block!important;
+    }
+
+
+
+
+
+
+
+
+
+  }

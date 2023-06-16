@@ -1,0 +1,50 @@
+.textf {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.fB {
+    height: 4vh;
+    margin-top: 25px;
+    background-color: #067696;
+    border-color: transparent;
+    color: white;
+    margin-left: 29px;
+    border-radius: 10px;
+}
+.tabC {
+    width: 100%;
+}
+/* Móvil */
+@media screen and (width: 390px) {
+    .uI {
+        font-size: 12px !important;
+    }
+    .uI1 {
+        font-size: 12px !important;
+        margin: 0;
+        padding: 0;
+    }
+    .tdo {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: calc(100vh - 330px);
+        overflow-y: auto;
+    }
+    .tabC {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1px !important;
+    }
+}
+/* Tablet */
+@media (max-width: 768px) and (min-width: 391px) {
+    .uI {
+        font-size: 18px !important;
+        margin-right: 4px;
+    }
+    .spa {
+        padding: 0;
+        margin: 0;
+    }
+}

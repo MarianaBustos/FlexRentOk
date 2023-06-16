@@ -1,0 +1,101 @@
+.NavbarTransp{
+  background-color: rgba(122, 208, 155, 0);
+   background-size: cover;
+   width: -webkit-fill-available;
+}
+
+.margin{
+   margin: 20px;
+   
+}
+
+.apartadosNavbar{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+ }
+
+ .BotonLoginLanding{
+  padding: 12vw;
+  margin-right: 2vw;
+  margin-top: 25px;
+  background-color: #067696;
+  border-color: "transparent";
+  font-size: 16px!important;
+ }
+@media (max-width: 768px) and (min-width: 391px){
+
+  .logoFlex{
+    height: 40px;
+  }
+
+  .navbarInfo{
+    padding-bottom: 170px;
+  }
+
+
+  .NavbarTransp {
+    padding: 10px;
+    display: flex!important;
+    flex-direction: column!important;
+  }
+  .logoFlex {
+    margin-right: 10px;
+    margin-top: -80px;
+  }
+  .margin{
+    width: 0;
+    margin-top: -6px;
+  }
+  .me-auto {
+    font-size: 14px;
+    max-height: 100px; /* Aumenta la altura máxima para mostrar todas las opciones */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si las opciones no caben en la pantalla */
+  }
+  p {
+    padding: 5px;
+  }
+  .B {
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 390px) {
+
+   .NavbarTransp {
+     padding: 10px;
+   }
+
+   .logoFlex {
+    width: 160px;
+    height: 40px;
+   }
+
+   .me-auto {
+     font-size: 14px;
+     max-height: 70px;
+   }
+
+   p {
+     padding: 5px;
+   }
+
+   .apartadosNavbar p{
+    visibility: hidden;
+   }
+
+
+ }
